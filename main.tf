@@ -23,7 +23,7 @@ resource "azurerm_resource_group" "rg1" {
   }
 
  resource "azurerm_resource_group" "rg3" {
-  name     = "rg103"
+  name     = "rg104"
   location = "West Europe"
   }
 
