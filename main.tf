@@ -22,6 +22,10 @@ resource "azurerm_resource_group" "rg1" {
   location = "West Europe"
   }
 
+ resource "azurerm_resource_group" "rg3" {
+  name     = "rg103"
+  location = "West Europe"
+  }
 
   resource "azurerm_storage_account" "sg1" {
   name                     = "stg101"
