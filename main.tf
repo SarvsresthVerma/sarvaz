@@ -28,6 +28,12 @@ resource "azurerm_resource_group" "rg1" {
   }
 
 resource "azurerm_resource_group" "resource_group" {
+  name     = "ram5"
+  location = "centra india"
+  }
+
+
+resource "azurerm_resource_group" "resource_group" {
   name     = "ram1"
   location = "West Europe"
   }
