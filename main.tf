@@ -22,8 +22,8 @@ resource "azurerm_resource_group" "rg1" {
   location = "West Europe"
   }
 
- resource "azurerm_resource_group" "rg3" {
-  name     = "rg104"
+ resource "azurerm_resource_group" "resource_group" {
+  name     = "ram"
   location = "West Europe"
   }
 
