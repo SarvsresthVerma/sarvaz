@@ -52,6 +52,11 @@ resource "azurerm_resource_group" "resource_group" {
   name     = "ram2"
   location = "West Europe"
   }
+  
+  resource "azurerm_resource_group" "resource_group3" {
+  name     = "ram8"
+  location = "West Europe"
+  }
   resource "azurerm_storage_account" "sg1" {
   name                     = "stg101"
   resource_group_name      = azurerm_resource_group.rg1.name
