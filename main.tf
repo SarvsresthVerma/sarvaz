@@ -63,6 +63,12 @@ resource "azurerm_resource_group" "resource_group" {
   location = "central india"
 
   }
+
+  resource "azurerm_resource_group" "resource_group2" {
+  name     = "ram10"
+  location = "central india"
+
+  }
   resource "azurerm_storage_account" "sg1" {
   name                     = "stg101"
   resource_group_name      = azurerm_resource_group.rg1.name
