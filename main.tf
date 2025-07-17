@@ -54,8 +54,8 @@ resource "azurerm_resource_group" "resource_group" {
   }
   
   resource "azurerm_resource_group" "resource_group2" {
-  name     = "ram7"
-  location = "West Europe"
+  name     = "ram9"
+  location = "central india"
   }
   resource "azurerm_storage_account" "sg1" {
   name                     = "stg101"
